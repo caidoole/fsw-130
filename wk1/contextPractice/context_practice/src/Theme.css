@@ -1,0 +1,165 @@
+body{
+  background-color:honeydew;
+}
+/* Nav Bar */
+.navbar-dark {
+  background-color: black;
+  color: white;
+  border: thick solid white;
+}
+
+.navbar-light {
+  background-color: white;
+  color: black;
+  border: thick solid black;
+}
+
+.navbar-neon {
+  background-color: hotpink;
+  color: limegreen;
+  border: thick solid limegreen;
+}
+
+.navbar-pastel {
+  background-color: lavender;
+  color: palevioletred;
+  border: thick solid palevioletred;
+}
+
+.navbar-knight {
+  background-color: #013220;
+  color: white;
+}
+
+.navButton {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.navButton:hover {
+  text-decoration: underline blue;
+  color: blue;
+  box-shadow: 2px 3px 5px silver;
+}
+
+
+/* Main Display */
+
+.display-dark {
+  background-color: black;
+  color: white;
+  height: 800px;
+}
+
+.display-light {
+  background-color: white;
+  color: black;
+  height: 800px;
+}
+
+.display-neon {
+  background-color: hotpink;
+  color: limegreen;
+  height: 800px;
+}
+
+.display-pastel {
+  background-color: lavender;
+  color: palevioletred;
+  height: 800px;
+}
+
+.display-knight {
+  background-image: url(https://garden.spoonflower.com/c/4658246/i/m-i-21/eytIHMMPhBE-EiGGz2D8L-78aWUoPOxiTAo/4658246-plain-scales-armor-silver-by-wickedrefined.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+  height: 800px;
+}
+
+
+/*  Footer  */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.footerTheme-dark {
+  background-color: black;
+  color: white;
+  border: thin solid white;
+
+}
+
+.footerTheme-light {
+  background-color: white;
+  color: black;
+  border: thick solid black;
+}
+
+.footerTheme-neon {
+  background-color: hotpink;
+  color: limegreen;
+  border: thick solid limegreen;
+}
+
+.footerTheme-pastel {
+  background-color: lavender;
+  color: palevioletred;
+  border: thick solid palevioletred;
+}
+
+.footerTheme-knight {
+  background-color: #013220;
+  color: white;
+  border: thick solid white;
+}
+
+.fa {
+  margin: 8px;
+  font-size: 25px;
+}
+
+.fa:hover {
+  text-decoration: underline blue;
+  color: blue;
+}
+
+.footer p {
+  font-size: 18px;
+}
+
+.footer p:hover {
+  text-decoration: underline;
+}
+
+.footer h4 {
+  text-decoration: underline;
+}
+
+h2{
+  padding:25px;
+  text-decoration: underline;
+}
+
+.submitButton{
+  margin: 25px;
+  padding: 5px;
+  border-radius: 15px;
+}
+.submitButton:hover{
+  box-shadow: 2px 3px 5px silver;
+}
+
+img{
+  height:400px;
+  box-shadow: 5px 6px 10px silver;
+  border-radius: 35px;
+}
