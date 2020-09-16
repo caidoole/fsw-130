@@ -1,0 +1,17 @@
+let store = require("./redux")
+let movies = require("./redux/movies")
+let tvshows = require("./redux/tvshows")
+
+store.dispatch(movies.addMovie("Labyrinth"))
+store.dispatch(tvshows.addTvShow("The Witcher"))
+store.dispatch(movies.addMovie("Legend"))
+store.dispatch(tvshows.addTvShow("Supernatural"))
+store.dispatch(movies.addMovie("Princess Bride"))
+store.dispatch(tvshows.addTvShow("Lucifer"))
+store.dispatch(movies.getMovies())
+store.dispatch(tvshows.getTvShows())
+
+store.dispatch(movies.deleteMovie("Labyrinth"))
+store.dispatch(tvshows.deleteTvShow("The Witcher"))
+store.dispatch(movies.getMovies())
+store.dispatch(tvshows.getTvShows())
