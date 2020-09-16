@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:grey;
+}
+
+.header {
+    background-color: #FFDBE9;
+    border: thick solid #CC5500;
+    font-size:36px;
+}
+
+.form {
+    background-color: #CC5500;
+    margin: 15px;
+    border: thick solid yellowgreen;
+}
+.form-input {
+    margin: 10px;
+}
+.form-input:hover{
+    box-shadow: 2px 3px 5px black;
+}
+.image{
+    border:thick solid yellow;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px black;
+    height:400px;
+}
+
+.button {
+    border: thin solid yellowgreen;
+    margin: 10px;
+    background-color: #FFDBE9;
+}
+
+.button:hover {
+    box-shadow: 2px 3px 4px black;
+}
+
+.cancelButton {
+    border: thin solid yellowgreen;
+    margin: 10px;
+    background-color: #CC5500;
+}
+
+.cancelButton:hover {
+    box-shadow: 2px 3px 4px black;
+}
+
+.ugly-list {
+    background-color: #FFDBE9;
+    color: black;
+    padding: 10px;
+    margin:15px;
+}
+
+p{
+    font-size: 36px;
+}
+
+.ugly-title {
+    border: thick solid yellowgreen;
+    margin: 15px;
+    background-color: #CC5500;
+}
+
+.comments {
+    background-color: #CC5500;
+    border: thick solid yellowgreen;
+    border-radius:25px;
+    margin: 15px;
+}
+
+.comment-form {
+    background-color: #CC5500;
+    border:thick solid yellowgreen;
+    margin:15px;
+}
