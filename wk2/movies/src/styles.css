@@ -1,0 +1,57 @@
+body {
+    background-color:#8b0000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-theme {
+    background-color: #333333;
+    color: whitesmoke;
+}
+
+.header {
+    font-size: 24px;
+    background-color:#8b0000;
+    color:  whitesmoke;
+    padding: 20px;  
+}
+
+.form {
+    margin:15px;
+    padding: 20px;
+}
+
+.button {
+    padding: 5px;
+    border: thin solid black;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.button:hover{
+    box-shadow: 3px 4px 5px black;
+}
+
+.form-input {
+    margin: 5px;
+}
+.form-input:hover{
+    box-shadow: 3px 4px 5px black;
+}
+
+.movie-list {
+    background-color:#8b0000;
+    color:whitesmoke;
+    padding: 20px;
+}
+
+.movie {
+    padding: 10px;
+}
+.movie:hover{
+    text-decoration: underline;
+}
+h1{
+    text-decoration: underline;
+}
