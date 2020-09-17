@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+}
+
+.header {
+    font-size: 26px;
+    font-family: 'Fontdiner Swanky', cursive;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: thick solid black;
+    background-color: #9F81CD;
+}
+
+.logo {
+    height: 150px;
+    float: left;
+    border: thick solid black;
+    border-radius: 10px;
+}
+
+.logo:hover {
+    box-shadow: 3px 4px 5px black;
+}
+
+.button {
+    margin: 10px;
+}
+
+.button:hover {
+    box-shadow: 3px 4px 5px black;
+}
+
+.formTitle {
+    font-family: 'Fontdiner Swanky', cursive;
+    padding: 15px;
+}
+
+.form {
+    border: thick solid black;
+    background-color: #9F81CD;
+    margin-top: 15px;
+    margin-left:30%;
+    margin-right:30%;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.form-input {
+    margin: 10px;
+}
+
+.form-input:hover {
+    box-shadow: 2px 3px 4px black;
+}
+
+.labels {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.contactDisplay {
+    border: thick solid black;
+    background-color: #9F81CD;
+    box-shadow: 4px 5px 10px black;
+}
+
+.contactList {
+    text-align: left;
+    margin: 25px;
+    margin-right:50%;
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+h2 {
+    margin: 15px;
+    font-family: none;
+}
+
+h2:hover {
+    text-decoration: underline;
+}
+
+.emailDisplay {
+    color: purple;
+}
