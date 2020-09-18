@@ -5,8 +5,8 @@ import uuid from "react-uuid"
 function ContactForm(props) {
     const initInputs = {
         id: uuid(),
-        firstName:  '',
-        lastName:  '',
+        firstName: '',
+        lastName: '',
         phone: '',
         email: ''
     }

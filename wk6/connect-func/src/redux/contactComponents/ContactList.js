@@ -16,7 +16,7 @@ function ContactList(props) {
     return (
         <div className='contactList'>
             <h1>Contacts:</h1>
-           {contactData} 
+            {contactData}
         </div>
     )
 }
