@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+}
+
+#root{
+    height: 100vh;
+}
+
+body{
+    background-color: #91d9cb;
+    text-transform: capitalize;
+    text-align:center;
+    font-family: 'Forum', cursive;
+    font-size:22px;
+}
+
+.App{
+    grid-template-columns: (6, 1fr);
+    grid-row: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    grid-column: 1/-1;
+    grid-row: 1;
+    border: thick solid black;
+    margin: 50px;
+    background-color:white;
+
+}
+.title{
+    margin: 75px;
+}
+
+.logo {
+    height: 150px;
+    border: thick solid silver;
+    margin: 25px;
+    float: left;
+}
+
+.logo:hover {
+    box-shadow: 3px 4px 10px silver;
+}
+
+
+.nav {
+    grid-column: 1/-1;
+    grid-row: 2;
+    border: thin solid black;
+    margin: 50px;
+    padding:5px;
+    background-color:white;
+    
+}
+
+input{
+    border:3px solid black;
+    font-family: 'Forum', cursive;
+    padding: 5px;
+}
+input:hover{
+    box-shadow:3px 4px 5px black;
+}
+button{
+    border:thin solid purple;
+    border-radius:5px;
+    padding:5px;
+    font-family:'Forum', cursive;
+    font-size: 18px;
+}
+button:hover{
+    box-shadow:3px 4px 5px black;
+}
+
+.link{
+    margin: 15px;
+    padding:3px;
+    border-radius: 5px;
+}
+.link:hover{
+    box-shadow:3px 4px 5px grey;
+}
+.list{
+    text-align: left;
+}
+
+li:hover{
+    text-decoration:underline;
+    font-size: 42px;
+    color:purple;
+}
+
+.info{
+    text-align: right;
+}
+.footer {
+    grid-column: 1/-1;
+    grid-row: 6;
+    border: thin solid black;
+    margin: 50px;
+    margin-top:250px;
+    padding:250px;
+    font-size: 20px; 
+    background-image: url(https://static.dezeen.com/uploads/2018/06/lgbt-pride-flag-redesign-hero-852x480.jpg);
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
